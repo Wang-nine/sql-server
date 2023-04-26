@@ -1,0 +1,2 @@
+--功能5
+--查询一位学生被哪些教师教过课--以查询学号为 2022001 的学生为例SELECT 	SName '学生姓名',	TeacherName	'老师姓名',	CourseName '课程姓名'FROM	Student, TeacherInfoWHERE	SNO = '2022001'	AND	Student.ClassID = TeacherInfo.CourseID;
